@@ -1,0 +1,271 @@
+
+Summary
+Genome	pf
+Date	2026-07-01 15:07
+SnpEff version	
+SnpEff 5.2 (build 2023-09-29 06:17), by Pablo Cingolani
+Command line arguments	
+SnpEff  -i vcf -o vcf -stats /jetstream2/scratch/main/jobs/78290969/outputs/dataset_a9fef584-2991-49db-a0a2-58e27ee72491.dat 
+pf /jetstream2/scratch/main/jobs/78290969/inputs/dataset_0f2503b9-a9ff-4418-8091-ac20c36e3950.dat 
+Warnings	0
+Errors	0
+Number of lines (input file)	455
+Number of variants (before filter)	455
+Number of not variants
+(i.e. reference equals alternative)	0
+Number of variants processed
+(i.e. after filter and non-variants)	455
+Number of known variants
+(i.e. non-empty ID)	0 ( 0% )
+Number of multi-allelic VCF entries
+(i.e. more than two alleles)	0
+Number of effects	455
+Genome total length	23,292,622
+Genome effective length	1,200,490
+Variant rate	1 variant every 2,638 bases
+
+
+Variants rate details
+Chromosome	Length	Variants	Variants rate
+NC_004318.2	1,200,490	455	2,638
+Total	1,200,490	455	2,638
+
+Number variants by type
+Type	Total
+SNP	455
+MNP	0
+INS	0
+DEL	0
+MIXED	0
+INV	0
+DUP	0
+BND	0
+INTERVAL	0
+Total	455
+
+Number of effects by impact
+Type (alphabetical order)	 	Count	Percent
+LOW	 	91	20%
+MODERATE	 	224	49.231%
+MODIFIER	 	140	30.769%
+
+
+
+Number of effects by functional class
+Type (alphabetical order)	 	Count	Percent
+MISSENSE	 	224	71.111%
+SILENT	 	91	28.889%
+
+
+Missense / Silent ratio: 2.4615
+
+Number of effects by type and region
+Type	Region
+Type (alphabetical order)	 	Count	Percent
+intergenic_region	 	113	24.835%
+intron_variant	 	27	5.934%
+missense_variant	 	224	49.231%
+synonymous_variant	 	91	20%
+
+Type (alphabetical order)	 	Count	Percent
+EXON	 	315	69.231%
+INTERGENIC	 	113	24.835%
+INTRON	 	27	5.934%
+
+
+
+
+
+Quality:
+	
+Min	63
+Max	10,782
+Mean	2,006.189
+Median	790
+Standard deviation	2,550.586
+Values	63,64,65,66,67,69,71,72,73,74,75,77,79,80,81,82,83,84,85,86,87,88,90,91,95,96,98,99,100,102,106,107,108,111,112,113,115,116,117,118,122,123,124,125,126,128,131,132,135,137,139,140,141,143,148,149,150,151,155,158,162,163,165,176,179,182,184,185,192,194,200,202,203,205,206,207,208,209,211,216,220,221,222,223,227,233,234,236,241,247,248,250,256,264,268,269,270,271,277,286,288,291,313,316,332,334,338,343,353,364,366,374,379,395,397,402,403,410,412,413,419,424,432,436,438,442,443,446,447,452,456,472,479,488,503,516,520,530,531,538,545,553,556,564,582,588,594,620,627,631,632,642,646,647,661,662,672,701,703,727,730,732,749,785,790,793,810,820,831,848,852,867,868,893,909,936,962,973,981,982,996,998,1002,1007,1020,1026,1027,1044,1050,1052,1066,1082,1096,1116,1120,1141,1144,1155,1164,1178,1199,1217,1218,1247,1266,1270,1274,1288,1309,1310,1318,1344,1405,1413,1415,1424,1426,1427,1459,1477,1491,1502,1520,1525,1562,1573,1589,1590,1607,1639,1640,1642,1645,1671,1697,1703,1705,1714,1725,1743,1766,1773,1776,1798,1887,1953,1959,1993,2017,2031,2074,2127,2139,2150,2162,2181,2250,2268,2272,2288,2352,2451,2459,2463,2479,2490,2503,2520,2579,2637,2662,2697,2725,2780,2847,2872,2876,2988,2995,3000,3014,3055,3066,3078,3091,3105,3136,3188,3191,3236,3341,3423,3455,3601,3711,3801,3838,3955,3962,3974,4086,4286,4347,4353,4463,4549,4564,4567,4629,4669,4688,4694,4760,4794,4807,4856,4898,4957,4962,4979,5055,5161,5281,5285,5383,5457,5490,5506,5633,5666,5784,5787,5826,5850,5857,5870,5926,5989,5996,6154,6230,6269,6283,6296,6353,6389,6413,6649,6754,6761,6772,6786,6823,6824,6863,6873,7020,7127,7142,7240,7320,7573,7595,7638,7672,7770,7790,8068,8103,8188,8209,8412,8469,8578,8619,8770,8814,8821,8833,8879,8895,9011,9084,9122,9370,9619,9861,10289,10782
+Count	1,2,7,3,2,1,1,3,3,1,3,1,2,2,1,2,2,1,2,3,4,1,1,4,3,2,1,1,3,4,1,2,2,1,1,1,1,1,1,3,1,2,2,2,1,1,1,1,1,1,2,1,1,1,3,3,1,1,1,1,1,1,2,1,1,2,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,3,2,1,1,2,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+	
+
+Insertions and deletions length:
+	
+
+Base changes (SNPs)
+ 	A	C	G	T
+A	0	18	59	49
+C	27	0	8	60
+G	74	5	0	19
+T	71	50	15	0
+
+Ts/Tv (transitions / transversions)
+
+Note: Only SNPs are used for this statistic.
+Note: This Ts/Tv ratio is a 'raw' ratio (ratio of observed events).
+Transitions	243
+Transversions	212
+Ts/Tv ratio	1.1462
+All variants:
+
+Sample ,Total
+Transitions ,243,243
+Transversions ,212,212
+Ts/Tv ,1.146,1.146
+Only known variants (i.e. the ones having a non-empty ID field):
+
+No results available (empty input?)
+Allele frequency
+
+
+Allele Count
+
+
+Min	1
+Max	1
+Mean	1
+Median	1
+Standard deviation	0
+Values	1
+Count	455
+Hom/Het per sample
+
+
+
+
+Sample_names 
+Reference 
+Het 
+Hom 
+Missing 
+Codon changes
+
+How to read this table:
+- Rows are reference codons and columns are changed codons. E.g. Row 'AAA' column 'TAA' indicates how many 'AAA' codons have been replaced by 'TAA' codons.
+- Red background colors indicate that more changes happened (heat-map).
+- Diagonals are indicated using grey background color
+- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).
+
+ 	AAA	AAC	AAG	AAT	ACA	ACC	ACG	ACT	AGA	AGC	AGG	AGT	ATA	ATC	ATG	ATT	CAA	CAC	CAG	CAT	CCA	CCT	CGT	CTA	CTG	CTT	GAA	GAC	GAG	GAT	GCA	GCG	GCT	GGA	GGC	GGG	GGT	GTA	GTC	GTG	GTT	TAC	TAT	TCA	TCC	TCG	TCT	TGG	TGT	TTA	TTC	TTG	TTT
+AAA	 	 	3	2	 	 	 	 	2	 	 	 	 	 	 	 	4	 	 	 	 	 	 	 	 	 	4	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AAC	 	 	1	10	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AAG	3	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AAT	6	8	 	 	 	 	 	 	 	 	 	2	 	 	 	7	 	 	 	5	 	 	 	 	 	 	 	 	 	13	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 
+ACA	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ACC	 	 	 	 	 	 	 	2	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ACG	 	 	 	 	 	 	 	1	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ACT	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AGA	1	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AGC	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+AGG	 	 	 	 	 	 	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 
+AGT	 	 	 	7	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ATA	1	 	 	 	 	 	 	 	 	 	 	 	 	1	5	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ATC	 	1	 	 	 	 	 	 	 	 	 	 	2	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ATG	 	 	 	 	 	 	2	 	 	 	 	 	4	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+ATT	 	 	 	4	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CAA	3	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	 	 	 	1	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CAC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CAG	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	3	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CAT	 	 	 	10	 	 	 	 	 	 	 	 	 	 	 	 	 	2	1	 	 	 	1	 	 	1	 	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 	5	 	 	 	 	 	 	 	 	 	 
+CCA	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 
+CCT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 
+CGT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CTA	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 
+CTG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+CTT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GAA	5	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	4	 	3	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GAC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	4	 	1	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GAG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GAT	 	 	 	10	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	6	7	1	 	 	 	 	 	 	 	2	 	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 
+GCA	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GCG	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GCT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 
+GGA	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	2	 	2	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GGC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GGG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GGT	 	 	 	 	 	 	 	 	 	 	 	4	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	 	 	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 
+GTA	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	1	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GTC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GTG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+GTT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+TAC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 
+TAT	 	 	 	3	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	3	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	2	 	 	 	 
+TCA	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	1	 	 	 
+TCC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 
+TCG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	3	 	 	1	 	 	 	 	 	 
+TCT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	3	1	1	 	 	 	 	 	 	1
+TGG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+TGT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	1
+TTA	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	6	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	2	 	 	 	 	 	 	1	3	2
+TTC	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+TTG	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 	 	 	 	6	 	 	 
+TTT	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 	 	 
+
+Amino acid changes
+
+How to read this table:
+- Rows are reference amino acids and columns are changed amino acids. E.g. Row 'A' column 'E' indicates how many 'A' amino acids have been replaced by 'E' amino acids.
+- Red background colors indicate that more changes happened (heat-map).
+- Diagonals are indicated using grey background color
+- WARNING: This table may include different translation codon tables (e.g. mamalian DNA and mitochondrial DNA).
+
+ 	A	C	D	E	F	G	H	I	K	L	M	N	P	Q	R	S	T	V	W	Y
+A	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	1	 	 
+C	 	 	 	 	1	1	 	 	 	 	 	 	 	 	1	 	 	 	 	1
+D	 	 	9	12	 	2	1	 	 	 	 	10	 	 	 	 	 	2	 	 
+E	 	 	8	 	 	1	 	 	5	 	 	 	 	2	 	 	 	 	 	 
+F	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	1	 	 	 	 
+G	 	 	2	1	 	3	 	 	 	 	 	 	 	 	2	4	 	5	 	 
+H	 	 	3	 	 	 	4	 	 	1	 	10	 	2	1	 	 	 	 	5
+I	 	 	 	 	 	 	 	4	1	 	6	5	 	 	 	 	 	3	 	 
+K	 	 	 	6	 	 	 	 	6	 	 	3	 	5	2	 	 	 	 	 
+L	 	 	 	 	3	 	 	2	 	18	 	 	 	 	 	2	 	1	 	 
+M	 	 	 	 	 	 	 	6	 	 	 	 	 	 	 	 	2	 	 	 
+N	 	 	13	 	 	 	5	7	7	 	 	18	 	 	 	2	 	 	 	2
+P	 	 	 	 	 	 	 	 	 	1	 	 	1	 	 	3	 	 	 	 
+Q	 	 	 	3	 	 	2	 	4	1	 	 	 	5	 	 	 	 	 	 
+R	 	 	 	 	 	2	 	 	1	 	 	 	 	 	4	 	 	 	1	 
+S	 	 	 	 	1	2	 	 	 	1	 	7	1	 	 	13	 	 	 	1
+T	1	 	 	 	 	 	 	2	 	 	1	 	 	 	 	 	4	 	 	 
+V	 	 	2	1	 	2	 	4	 	1	 	 	 	 	 	 	 	1	 	 
+W	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 
+Y	 	2	1	 	 	 	3	 	 	 	 	3	 	 	 	1	 	 	 	1
+
+
+
+
+Variants by chromosome
+		
+
+		NC_004318.2, Position,0,10000,20000,30000,40000,50000,60000,70000,80000,90000,100000,110000,120000,130000,140000,150000,160000,170000,180000,190000,200000,210000,220000,230000,240000,250000,260000,270000,280000,290000,300000,310000,320000,330000,340000,350000,360000,370000,380000,390000,400000,410000,420000,430000,440000,450000,460000,470000,480000,490000,500000,510000,520000,530000,540000,550000,560000,570000,580000,590000,600000,610000,620000,630000,640000,650000,660000,670000,680000,690000,700000,710000,720000,730000,740000,750000,760000,770000,780000,790000,800000,810000,820000,830000,840000,850000,860000,870000,880000,890000,900000,910000,920000,930000,940000,950000,960000,970000,980000,990000,1000000,1010000,1020000,1030000,1040000,1050000,1060000,1070000,1080000,1090000,1100000,1110000,1120000,1130000,1140000,1150000,1160000,1170000,1180000,1190000,1200000
+NC_004318.2,Count,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,14,30,46,20,32,14,12,14,5,16,41,15,29,28,26,26,25,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+Details by gene
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_synonymous_variant
+PF3D7_0414600	PF3D7_0414600	XM_001351417.1	protein_coding	1	2	0	0	2	1
+PF3D7_0414900	PF3D7_0414900	XM_002808607.1	protein_coding	1	0	4	4	0	1
+PF3D7_0415000	PF3D7_0415000	XM_001351421.1	protein_coding	1	0	0	0	0	1
+PF3D7_0415200	PF3D7_0415200	XM_001351423.1	protein_coding	6	24	0	0	24	6
+PF3D7_0415300	PF3D7_0415300	XM_001351425.1	protein_coding	12	27	0	0	27	12
+PF3D7_0415700	PF3D7_0415700	XM_001351429.1	protein_coding	1	0	0	0	0	1
+PF3D7_0415800	PF3D7_0415800	XM_001351430.1	protein_coding	2	12	0	0	12	2
+PF3D7_0416000	PF3D7_0416000	XM_001351432.3	protein_coding	2	4	1	1	4	2
+PF3D7_0416100	PF3D7_0416100	XM_001351433.1	protein_coding	4	8	0	0	8	4
+PF3D7_0416300	PF3D7_0416300	XM_001351435.1	protein_coding	2	3	0	0	3	2
+PF3D7_0416400	PF3D7_0416400	XM_002808609.1	protein_coding	0	3	2	2	3	0
+PF3D7_0416900	PF3D7_0416900	XM_002808611.1	protein_coding	4	7	0	0	7	4
+PF3D7_0417100	PF3D7_0417100	XM_001351442.1	protein_coding	0	0	2	2	0	0
+PF3D7_0417200	PF3D7_0417200	XM_001351443.1	protein_coding	0	1	0	0	1	0
+PF3D7_0417300	PF3D7_0417300	XM_001351444.1	protein_coding	1	1	4	4	1	1
+PF3D7_0417400	PF3D7_0417400	XM_002808612.1	protein_coding	5	52	0	0	52	5
+PF3D7_0417500.1	PF3D7_0417500.1	XM_002808613.1	protein_coding	0	0	2	2	0	0
+PF3D7_0417600	PF3D7_0417600	XM_001351448.1	protein_coding	1	2	1	1	2	1
+PF3D7_0417700	PF3D7_0417700	XM_002808614.1	protein_coding	0	0	1	1	0	0
+PF3D7_0417800	PF3D7_0417800	XM_001351450.1	protein_coding	6	9	0	0	9	6
+PF3D7_0417900	PF3D7_0417900	XM_001351451.1	protein_coding	1	6	0	0	6	1
+PF3D7_0418000	PF3D7_0418000	XM_024473421.1	protein_coding	18	21	5	5	21	18
+PF3D7_0418100	PF3D7_0418100	XM_001351453.1	protein_coding	1	4	0	0	4	1
+PF3D7_0418300	PF3D7_0418300	XM_001351455.1	protein_coding	8	6	0	0	6	8
+PF3D7_0418400	PF3D7_0418400	XM_001351456.1	protein_coding	1	0	1	1	0	1
+PF3D7_0418500	PF3D7_0418500	XM_001351457.1	protein_coding	1	0	4	4	0	1
+PF3D7_0418600	PF3D7_0418600	XM_001351458.1	protein_coding	12	32	0	0	32	12
