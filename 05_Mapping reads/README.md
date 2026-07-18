@@ -12,7 +12,9 @@ BWA-MEM2 on dataset ERR042228
 
 
 Mapping reads
+------
 We can proceed with mapping reads. Galaxy has a number of mappers including bowtie, bwa-mem, and bwa-mem2. For this analysis we will use bwa-mem2 —the latest version of this popular and “battle-tested” tool.
 
 Upload reference genome
+---------
 The key question when mapping reads against a genome is whether the index for this genome—a datastructure bwa-mem2 uses to quickly find matches—is already installed on Galaxy or not. Let’s assume that it is NOT present in Galaxy. In this case you will need to upload the genome. In this case we will use reference genome of 3D7 strain P. falciparum.
